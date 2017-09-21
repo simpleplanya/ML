@@ -32,7 +32,7 @@ def tokenizer_porter(text):
 # read csv data 
 df = pd.read_csv('movie_data.csv')
 df['review'] = df['review'].apply(preprocessor)
-print 'clean ok '
+print ('clean ok')
 import nltk
 nltk.download('stopwords')
 from nltk.corpus import stopwords
